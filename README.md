@@ -17,3 +17,4 @@ This is a Java application to manage heating and cooling in an apartment buildin
 4. To build and run with Docker:
    - Build the Docker image: `docker build -t apartment-building .`
    - Run the container: `docker run apartment-building`
+Note: In the dockerized verison, it is impossible to enter parameters (since its working with scanner), its becasue of the nature of Docker. To see parameter entering specs please run it locally
